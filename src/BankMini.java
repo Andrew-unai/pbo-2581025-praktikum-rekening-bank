@@ -36,3 +36,4 @@ public class BankMini {
         System.out.println("=========== SALDO AKHIR ===========");
         rekening.cetakInfo();
     }
+}
