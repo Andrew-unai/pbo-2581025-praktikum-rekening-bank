@@ -5,6 +5,9 @@ public class BankMini {
         Scanner in = new Scanner(System.in);
         Rekening rekening = new Rekening("001", "Ani", 100000);
 
+        rekening.saldo = 1000000;
+        //java: saldo has private access in Rekening
+
         System.out.println("============ BANK MINI ============");
         System.out.println("Rekening 001 a.n. Ani");
 
